@@ -1,0 +1,167 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.body
+{
+    background: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    max-width: 100vw;
+    max-height: 100vh;
+
+}
+
+.navbar
+{
+    background-color: rgba(12, 12, 12, 0.991) !important;
+}
+
+.navv
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px !important;
+}
+
+.logo
+{
+    border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.logo:hover
+{
+    border: 2px solid rgb(66, 243, 219);
+    padding: 1px;
+    cursor: pointer;
+}
+
+.nav-link
+{
+    color: white !important;
+}
+
+.nav-link:hover
+{
+    color: aqua !important;
+    text-decoration: underline !important;
+}
+
+.boxText
+{
+    color: black;
+    /* font-size: 4vw; */
+}
+
+.gamecontainer
+{
+    padding-top: 5vh;
+   
+    background-color: rgba(155, 243, 241, 0.711);
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+}
+
+.containers{
+    padding-right: 2vw;
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+
+}
+
+.box
+{
+    border: 2px solid black;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover
+{
+    background-color: rgb(237, 183, 237);
+    cursor: pointer;
+}
+
+
+
+.imgBox img{
+    width:0;
+    transition: width 0.1s ease-in-out;
+    margin : 20px 0px
+}
+
+#reset
+{
+    padding-left: 10px;
+    margin: 10px 3px;
+    width: 100px;
+    height: 50px;
+    font-size: 27px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-family: cursive;
+}
+
+.gameInfo h1
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info
+{
+    font-size: 5vh;
+    transition: font-size 0.1s ease-in-out;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+@media screen and (max-width : 800px)
+{
+    .gamecontainer
+    {
+        flex-wrap: wrap;
+        
+    }
+    .gameinfo
+    {
+        margin-top: 2vh;
+        font-size: 20vh;
+        align-items: center;
+        margin-left: 10vw;
+
+    }
+
+    .gameinfo h1
+    {
+        margin-left: 5vw;
+    }
+    .containers
+    {
+        grid-template-columns: repeat(3,20vw);
+        grid-template-rows: repeat(3,20vw);
+        height: 0;
+    }
+
+    .imgBox img{
+        /* width: 30vh; */
+        margin-left: 60vw;
+        height: 30vw;
+        margin-top: -30vh;
+        transition: width 1s ease-in-out;
+        
+    } 
+}

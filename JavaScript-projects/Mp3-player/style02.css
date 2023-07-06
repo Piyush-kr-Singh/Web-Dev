@@ -1,0 +1,178 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.body
+{
+    background: rgba(0, 0, 0, 0.386)url(/bg12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    max-width: 100vw;
+    max-height: 100vh;
+
+}
+
+.navbar
+{
+    background-color: rgba(12, 12, 12, 0.351) !important;
+}
+
+.navv
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px !important;
+}
+
+.logo
+{
+    border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.logo:hover
+{
+    border: 2px solid rgb(66, 243, 219);
+    padding: 1px;
+    cursor: pointer;
+}
+
+.nav-link
+{
+    color: white !important;
+}
+
+.nav-link:hover
+{
+    color: aqua !important;
+    text-decoration: underline !important;
+}
+
+i
+{
+    cursor: pointer;
+    align-items: center !important;
+}
+
+/* .far
+{
+    font-size: 5vh !important;
+} */
+
+.card-img-top
+{
+    height: 25vh;
+}
+
+.heading
+{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+.card
+{
+    background-color: rgba(255, 255, 255, 0.76) !important;
+}
+
+/* .card-body .fa-play-circle
+{
+    font-size: 4vh;
+} */
+
+
+.container-fluid
+{
+    height: 22vh;
+    width: 100wh;
+    background-color: black;
+    position: fixed;
+    top: 78vh !important;
+}
+
+.progress
+{
+    cursor: pointer;
+}
+
+.icons
+{
+    color: white;
+}
+
+.icons i
+{
+    cursor: pointer;
+}
+
+.playb
+{
+    font-size: 47px !important;
+}
+
+.container1
+{
+    height: 30vh;
+}
+
+
+.para
+{
+    font-size: 50px;
+    font-family: cursive;
+    color: white;
+}
+
+.para2 
+{
+    font-size: 40px;
+    font-family: "Sofia", sans-serif;
+    color: white;
+}
+
+.gif
+{
+    height: 14vh !important;
+    width: 11vw !important;
+    position: absolute;
+    bottom: 0vh;
+    left: 0vw;
+}
+
+.songname
+{
+    position: absolute;
+    right: 3vw;
+    bottom: 1vw;
+    color: white;
+}
+
+.songinfo img
+{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+#myProgressBar{
+    width: 94vw; 
+    cursor: pointer;
+}
+
+.para
+{
+    font-size: 50px;
+    font-family: cursive;
+    color: white;
+}
+
+
+
+.fa-3x .fa-play-circle
+{
+    height: 10vh !important;
+}

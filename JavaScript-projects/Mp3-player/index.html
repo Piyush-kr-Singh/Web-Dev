@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+    
+
+<body class="body">
+
+  <nav class="navbar navbar-expand-lg navbar-dark  text-light">
+    <a href="/index.html"><img src="/logo01.jpg" alt="" height="50" width="50" class="logo"></a>
+    <span class="navbar-brand mx-2 navv" href="#">Musify</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ml-4" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active mx-2">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" href="#">About</a>
+        </li>
+
+        <li class="nav-item dropdown mx-2">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Songs
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/hindi.html">Hindi Songs</a>
+            <a class="dropdown-item" href="/english.html">English Songs</a>
+            <a class="dropdown-item" href="#">Other Songs</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container-class">
+    <p class="para mt-5 ml-4">Start Listening <br> to your Songs here</p>
+    <p class="para2 mt-5 ml-4">Just Feel the Heart Beat . . .</p>
+    
+
+  </div>
+
+
+  <div class="container-fluid mt-auto">
+    
+      <input type="range" class="progress mt-3 mx-2" name="range" id="myProgressBar" min="0" value="0" max="100">
+
+    
+    <div class="icons text-center mt-2">
+      <i class="fas fa-3x fa-step-backward" id="previous"></i>
+      <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+      <i class="fas fa-3x fa-step-forward" id="next"></i>
+    </div>
+    <div class="songinfo">
+      <img src="/gif.gif" alt="" class="gif" id="gif">
+      <p class="songname">Faded - Alan Walker</p> 
+    </div>
+     
+  </div>
+
+  
+  <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+
+<script src="script.js"></script>
+
+</html>
